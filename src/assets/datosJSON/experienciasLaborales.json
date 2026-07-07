@@ -1,0 +1,105 @@
+[
+  {
+    "id": "001",
+    "puesto": "Becario en prácticas del módulo superior en DAW (2º año)",
+    "funciones": [
+      "Crear páginas y componentes en Angular 19 (TypeScript) para app de la empresa Consum.",
+      "Uso de herramientas IA de la empresa (Axet) y uso de transformador de AngularJS a Angular19.",
+      "Testing de los componentes creados y corrección de errores detectados mediante Sonar."
+    ],
+    "empresa": "NTT Data",
+    "lugar": "Playa de San Juan",
+    "logo": "/companies/nttdata-icon.png",
+    "fechaInicio": "Abril 2026",
+    "fechaFinal": "Junio 2026",
+    "destacado":"true"
+  },{
+    "id": "002",
+    "puesto": "Becario en prácticas del módulo superior en DAW (1er año)",
+    "funciones": [
+      "Visionado de cursos activados en Udemy sobre Prompt-engineering, POO y manejo de Java y JavaScript.",
+      "Superar exámenes de los cursos para obtener certificados digitales de los cursos.",
+      "Rellenar periodicamente el diario de prácticas en SAO."
+    ],
+    "empresa": "NTT Data",
+    "lugar": "Playa de San Juan",
+    "logo": "/companies/nttdata-icon.png",
+    "fechaInicio": "Mayo 2025",
+    "fechaFinal": "Junio 2025",
+    "destacado":"true"
+  },{
+    "id": "003",
+    "puesto": "Operario de fábrica",
+    "funciones": [
+      "Trabajos manuales dirigidos a preparar los productos a transportar.",
+      "Carga y descarga de los camiones con sacos del producto.",
+      "Transporte de objetos pesados, limpieza de las instalaciones y auxiliar de apoyo a otros operarios."
+    ],
+    "empresa": "Persax",
+    "lugar": "Villena",
+    "logo": "/companies/persax-icon.png",
+    "fechaInicio": "Julio 2024",
+    "fechaFinal": "Agosto 2024",
+    "destacado":"false"
+  },
+  {
+    "id": "004",
+    "puesto": "Operario de fábrica",
+    "funciones": [
+      "Envasado de frutos secos (trabajo en cinta).",
+      "Carga y descarga de los camiones con sacos del producto.",
+      "Transporte de objetos pesados, limpieza de las instalaciones y auxiliar de apoyo a otros operarios."
+    ],
+    "empresa": "Agroserc",
+    "lugar": "Beneixama",
+    "logo": "/companies/agroserc-icon.png",
+    "fechaInicio": "Abril 2024",
+    "fechaFinal": "Mayo 2024",
+    "destacado":"false"
+  },
+  {
+    "id": "005",
+    "puesto": "Repartidor en moto",
+    "funciones": [
+      "Transporte en moto de los pedidos de TFC Americana al domicilio de los clientes.",
+      "Tomar nota a los clientes en la barra del establecimiento y coger pedidos vía telefónica.",
+      "Reparto de pedidos en coche a Sax y Novelda."
+    ],
+    "empresa": "TFC Americana",
+    "lugar": "Petrer",
+    "logo": "/companies/tfcamericana-icon.png",
+    "fechaInicio": "Octubre 2023",
+    "fechaFinal": "Marzo 2024",
+    "destacado":"false"
+  },
+  {
+    "id": "006",
+    "puesto": "Profesor de clases particulares",
+    "funciones": [
+      "Tutorizar clases particulares y de refuerzo para alumnos de educación secundaria, bachiller y universidad.",
+      "Corrección de ejercicios y preparación de exámenes adaptados al temario",
+      "Clases de matemáticas, física, inglés, castellano y valenciano (entre otras materias)"
+    ],
+    "empresa": "De forma independiente",
+    "lugar": "Elda",
+    "logo": "/companies/maestro-icon.png",
+    "fechaInicio": "Septiembre 2022",
+    "fechaFinal": "Junio 2024",
+    "destacado":"false"
+  },
+  {
+    "id": "007",
+    "puesto": "Responsable control primario de temperatura",
+    "funciones": [
+      "Registro de informes informáticos diarios de los pasajeros provenientes de los vuelos europeos.",
+      "Dar indicaciones a los pasajeros provenientes de los vuelos para pasar el control primario.",
+      "Guiar a los pasajeros durante el proceso de control sanitario en caso de alerta del sistema."
+    ],
+    "empresa": "Mitie",
+    "lugar": "Aeropuerto de Alicante",
+    "logo": "/companies/mitie-icon.png",
+    "fechaInicio": "Julio 2021",
+    "fechaFinal": "Agosto 2021",
+    "destacado":"false"
+  }
+]

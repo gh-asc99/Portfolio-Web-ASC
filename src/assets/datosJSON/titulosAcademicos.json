@@ -1,0 +1,38 @@
+[
+    {
+        "id":"001",
+        "titulo":"Desarrollador de Aplicaciones Web (DAW)",
+        "tipo":"Módulo superior",
+        "centro":"I.E.S. Poeta Paco Mollá",
+        "lugar":"Petrer",
+        "logo": "/studies/poetapacomolla-icon.png",
+        "periodo":"Septiembre 2024 - Junio 2026"
+    },
+    {
+        "id":"002",
+        "titulo":"Desarrollo de Aplicaciones con tecnología Web",
+        "tipo":"Certificado de profesionalidad",
+        "centro":"Formación Universitaria",
+        "lugar":"Online",
+        "logo": "/studies/formacionuniversitaria-icon.png",
+        "periodo":"Agosto 2024"
+    },
+    {
+        "id":"003",
+        "titulo":"Maestro de Educación Infantil",
+        "tipo":"Grado universitario",
+        "centro":"Universidad de Alicante",
+        "lugar":"San Vicent",
+        "logo": "/studies/universidadalicante-icon.png",
+        "periodo":"Septiembre 2019 - Junio 2023"
+    },
+    {
+        "id":"004",
+        "titulo":"Bachillerato de Ciencias",
+        "tipo":"Estudio superior",
+        "centro":"I.E.S. Azorín",
+        "lugar":"Petrer",
+        "logo": "/studies/azorin-icon.png",
+        "periodo":"Septiembre 2017 - Junio 2019"
+    }
+]

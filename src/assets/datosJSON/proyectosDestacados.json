@@ -1,0 +1,80 @@
+[
+    {
+        "id": "001",
+        "titulo": "Come With Me",
+        "desc_breve": "Aplicación web Full-Stack diseñada para facilitar y agilizar la creación y gestión de invitaciones digitales para cualquier tipo de evento. Desde momentos sociales de la vida diaria (viajes, bodas, conciertos, etc.), hasta eventos dentro del espectro laboral y académico (reuniones, talleres, etc.).",
+        "tecnologias": [
+            {
+                "id":"001",
+                "nombre": "Node.js",
+                "tipo": "Entorno de ejecución",
+                "logo": "/technologies/nodejs-icon.png"
+            },
+            {
+                "id":"002",
+                "nombre": "Express.js",
+                "tipo": "Framework",
+                "logo": "/technologies/expressjs-icon.png"
+            },
+            {
+                "id":"003",
+                "nombre": "MySQL",
+                "tipo": "Base de datos",
+                "logo": "/technologies/mysql-icon.png"
+            },
+            {
+                "id":"004",
+                "nombre": "Sequelize",
+                "tipo": "ORM",
+                "logo": "/technologies/sequelize-icon.png"
+            },
+            {
+                "id":"005",
+                "nombre": "Tailwind CSS",
+                "tipo": "Reglas de estilo",
+                "logo": "/technologies/tailwindcss-icon.png"
+            },
+            {
+                "id":"006",
+                "nombre": "React",
+                "tipo": "Biblioteca",
+                "logo": "/technologies/react-icon.png"
+            }
+        ],
+        "destacados": [
+            {
+                "id":"001",
+                "contenido":"Gestión de tipos de usuario (user, subscriber y admin)."
+            },
+            {
+                "id":"002",
+                "contenido":"Formularios controlados y formularios generados dinámicamente."
+            }
+            ,
+            {
+                "id":"003",
+                "contenido":"CRUD de las invitaciones de los usuarios."
+            }
+            ,
+            {
+                "id":"004",
+                "contenido":"Personalización del perfil de usuario. Posibilidad de eliminar la cuenta."
+            }
+            ,
+            {
+                "id":"003",
+                "contenido":"Uso de librerías para: Generar códigos QR, descargar en PDF, uso de animaciones."
+            }
+        ],
+        "fondo": "/projects/comewithme/fondo.png",
+        "logo": "/projects/comewithme/logo2.png",
+        "enlace": "https://come-with-me-app.vercel.app/",
+        "github": "https://github.com/gh-asc99/Come-With-Me-APP",
+        "borde_color1": "border-sky-500",
+        "fondo_color1": "bg-sky-500/30",
+        "texto_color1": "text-sky-500",
+        "borde_color2":"border-pink-300",
+        "texto_color2":"text-pink-300",
+        "fecha_publicacion": "Junio 2026"
+    }
+]
