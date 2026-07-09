@@ -11,7 +11,7 @@ const FormacionAcademica = () => {
         <p className="pb-2">Mis títulos académicos son los siguientes:</p>
         <div className="shadow-xl px-4 py-2 bg-gray-500 rounded-sm">
           {titulosAcademicos.length > 0 ? (
-            <ul className="grid grid-cols-3 gap-4 w-full">
+            <ul className="grid md:grid-cols-3 gap-4 w-full">
               {titulosAcademicos.map((tit) => (
                 <li key={tit.id}>
                   <Titulo

@@ -14,6 +14,7 @@ import phpstormIcon from "../assets/others/phpstorm-icon.png";
 import angularIcon from "../assets/others/angular-icon.png";
 import netbeansIcon from "../assets/others/netbeans-icon.png";
 import tailwindcssIcon from "../assets/others/tailwindcss-icon.png";
+import bootstrapIcon from "../assets/others/bootstrap-icon.png";
 
 import mysqlIcon from "../assets/databases/mysql-icon.png";
 import mariadbIcon from "../assets/databases/mariadb-icon.png";
@@ -29,7 +30,7 @@ const DatosPersonales = () => {
         <img
           src={ascImagen}
           alt="Alejandro Soler Cruz"
-          className="shadow-2xl w-40 h-40 md:w-50 md:h-50 rounded-full border-2 object-cover"
+          className="shadow-2xl w-40 h-40 md:w-50 md:h-50 rounded-sm md:rounded-full border-2 object-cover"
         />
         <div className="flex flex-col w-full gap-3">
           <p>
@@ -128,6 +129,9 @@ const DatosPersonales = () => {
                 </li>
                 <li>
                   <NombreIcono nombre="TailwindCSS" icono={tailwindcssIcon} />
+                </li>
+                <li>
+                  <NombreIcono nombre="Bootstrap" icono={bootstrapIcon} />
                 </li>
               </ul>
             </div>
