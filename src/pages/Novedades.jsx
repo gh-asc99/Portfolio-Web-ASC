@@ -4,7 +4,7 @@ import Novedad from '../components/components/Novedad'
 
 const Novedades = () => {
   return (
-    <div className="flex flex-col gap-8  md:px-0">
+    <div className="flex flex-col gap-4  md:px-0">
       <h2 className="text-2xl font-semibold underline">Tablón de novedades</h2>
 
       <div className='w-full'>
