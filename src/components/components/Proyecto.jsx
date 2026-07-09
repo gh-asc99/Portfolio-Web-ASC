@@ -10,8 +10,14 @@ const Proyecto = ({ proyecto }) => {
       <div className="bg-black/50 w-full rounded-sm px-6 py-4 flex flex-col gap-3">
         <div className="flex flex-col md:flex-row w-full gap-3">
           <div className="w-full bg-black/60 px-4 py-2 rounded-sm border border-white/40">
-            <p className="font-semibold">
+            <p className="hidden md:inline font-semibold">
               Nombre de la app:{" "}
+              <span className={`font-bold ${proyecto.texto_color2}`}>
+                {proyecto.titulo}
+              </span>
+            </p>
+            <p className="md:hidden font-semibold">
+              Nombre App:{" "}
               <span className={`font-bold ${proyecto.texto_color2}`}>
                 {proyecto.titulo}
               </span>
