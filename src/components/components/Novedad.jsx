@@ -23,7 +23,11 @@ const Novedad = ({ novedad }) => {
                     <p className='text-sky-700 mb-4'>{novedad.descripcion}</p>
                     {
                         novedad.enlace && (
-                            <p>Enlace: <span className='font-semibold'>{novedad.enlace}</span></p>
+                            <div className='flex gap-2 items-center'>
+                                <p>Enlace:</p>
+                                <a href={novedad.enlace} target='_blank' className='bg-sky-500 hover:bg-sky-700 text-white py-1 px-4 rounded-sm'>LINK</a>
+                            </div>
+                            
                         )
                     }
                 </div>
