@@ -85,7 +85,7 @@ const DatosPersonales = () => {
             <h3 className="text-white mb-2 text-sm md:text-base font-medium">
               Lenguajes de programación...
             </h3>
-            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-48 overflow-auto bg-gray-200">
+            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-48 overflow-auto [&::-webkit-scrollbar]:hidden bg-gray-200">
               <ul className="flex flex-col gap-2">
                 <li>
                   <NombreIcono nombre="JavaScript" icono={javacriptIcon} />
@@ -110,7 +110,7 @@ const DatosPersonales = () => {
             <h3 className="text-white mb-2 text-sm md:text-base font-medium">
               Frameworks, IDEs y entornos de ejecución...
             </h3>
-            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-48 overflow-auto bg-gray-200">
+            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-48 overflow-auto [&::-webkit-scrollbar]:hidden bg-gray-200">
               <ul className="flex flex-col gap-2">
                 <li>
                   <NombreIcono nombre="React" icono={reactIcon} />
@@ -141,7 +141,7 @@ const DatosPersonales = () => {
             <h3 className="text-white mb-2 text-sm md:text-base font-medium">
               Bases de datos...
             </h3>
-            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-48 overflow-auto bg-gray-200">
+            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-48 overflow-auto [&::-webkit-scrollbar]:hidden bg-gray-200">
               <ul className="flex flex-col gap-2">
                 <li>
                   <NombreIcono nombre="MySQL" icono={mysqlIcon} />

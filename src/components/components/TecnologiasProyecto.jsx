@@ -8,7 +8,7 @@ const TecnologiasProyecto = ({tecnologias, colorBorde, colorLetra}) => {
 
         <div className="px-4 py-2 bg-gray-500 rounded-sm">
           {tecnologias.length > 0 ? (
-            <ul className="grid grid-cols-3 gap-4 w-full">
+            <ul className="grid h-50 overflow-y-scroll [&::-webkit-scrollbar]:hidden md:overflow-hidden md:grid-cols-3 md:h-auto gap-4 w-full">
               {tecnologias.map((tecn) => (
                 <li key={tecn.id}>
                   <NombreIcono

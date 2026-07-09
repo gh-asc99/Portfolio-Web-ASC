@@ -8,7 +8,7 @@ const Proyecto = ({ proyecto }) => {
       style={{ backgroundImage: `url(${proyecto.fondo})` }}
     >
       <div className="bg-black/50 w-full rounded-sm px-6 py-4 flex flex-col gap-3">
-        <div className="flex w-full gap-3">
+        <div className="flex flex-col md:flex-row w-full gap-3">
           <div className="w-full bg-black/60 px-4 py-2 rounded-sm border border-white/40">
             <p className="font-semibold">
               Nombre de la app:{" "}
@@ -31,7 +31,7 @@ const Proyecto = ({ proyecto }) => {
             />
           </div>
         </div>
-        <div className="w-full flex gap-4">
+        <div className="w-full flex flex-col md:flex-row gap-4">
           <div className="w-full bg-black/60 border border-white/30 rounded-sm px-4 py-2">
             {proyecto.destacados && proyecto.destacados.length > 0 ? (
               <>
@@ -40,8 +40,8 @@ const Proyecto = ({ proyecto }) => {
                 </p>
                 <ul className={`${proyecto.fondo_color1} py-2 px-4 rounded-sm`}>
                   {proyecto.destacados.map((punto) => (
-                    <li key={punto.id}>
-                      <span className={`font-bold ${proyecto.texto_color1}`}>
+                    <li key={punto.id} className="flex gap-3">
+                      <span className={`block font-bold ${proyecto.texto_color1}`}>
                         ·
                       </span>{" "}
                       {punto.contenido}
@@ -59,7 +59,8 @@ const Proyecto = ({ proyecto }) => {
             <small className="mb-2"><em>Fecha de publicación: <span className="font-semibold">{proyecto.fecha_publicacion}</span></em> </small>
 
             <div className="flex gap-2 pb-2 text-sm items-center">
-              <p>Echa un vistazo a la app pulsando en </p>
+              <p className="hidden md:inline">Echa un vistazo a la app pulsando en </p>
+              <p className="md:hidden">Prueba la app aquí </p>
               <a
                 href={proyecto.enlace}
                 target="_blank"
@@ -70,7 +71,8 @@ const Proyecto = ({ proyecto }) => {
             </div>
 
             <div className="flex gap-2 pb-2 text-sm items-center">
-              <p>Puedes consultar el repositorio github de la app pulsando en </p>
+              <p className="hidden md:inline">Puedes consultar el repositorio github de la app pulsando en </p>
+              <p className="md:hidden">Consultar repositorio aquí </p>
               <a
                 href={proyecto.github}
                 target="_blank"
