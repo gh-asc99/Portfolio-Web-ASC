@@ -21,14 +21,15 @@ import mongodbIcon from "../assets/databases/mongodb-icon.png";
 
 const DatosPersonales = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8  md:px-0">
       <h2 className="text-2xl font-semibold underline">Datos personales</h2>
 
-      <div className="flex gap-8 items-center">
+      {/* SECCIÓN FOTO Y BIOGRAFÍA: Columna en móvil, fila a partir de md. Centrado en móvil. */}
+      <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center text-center md:text-left">
         <img
           src={ascImagen}
           alt="Alejandro Soler Cruz"
-          className="shadow-2xl w-50 h-50 rounded-full border-2"
+          className="shadow-2xl w-40 h-40 md:w-50 md:h-50 rounded-full border-2 object-cover"
         />
         <div className="flex flex-col w-full gap-3">
           <p>
@@ -58,30 +59,35 @@ const DatosPersonales = () => {
           </p>
           <p>
             Tras terminar el bachiller científico y concluir mi grado
-            universitario en la univerdidad de Alicante, descubrí mi verdadera
+            universitario en la universidad de Alicante, descubrí mi verdadera
             pasión: la informática y el desarrollo de aplicaciones. Por ello mis
             estudios posteriores se han focalizado en formarme en este sector.{" "}
             <span className="font-semibold">
               Siendo mi última formación el grado superior en DAW.
             </span>
           </p>
-          <p className="font-semibold">
+          <p className="font-semibold text-sky-500">
             Tengo disponibilidad de jornada completa y estoy abierto a
             desplazamiento e inserción inmediata.
           </p>
         </div>
       </div>
 
-      <div className="shadow-xl w-full border-2 border-solid border-grap-500 bg-gray-300 px-6 pt-4 pb-4 rounded-sm">
-        <p className="pb-4">
+      {/* CONTENEDOR DE HERRAMIENTAS */}
+      <div className="shadow-xl w-full border-2 border-solid border-gray-500 bg-gray-300 px-4 md:px-6 pt-4 pb-4 rounded-sm">
+        <p className="pb-4 text-center md:text-left">
           Estas son las herramientas con las que tengo experiencia:
         </p>
-        <div className="w-full flex justify-between gap-5">
+        
+        {/* LAS TRES COLUMNAS: Se apilan verticalmente en móvil (flex-col) y se ponen en fila en pantallas grandes (md:flex-row) */}
+        <div className="w-full flex flex-col md:flex-row gap-5">
+          
+          {/* LENGUAJES */}
           <div id="lenguajes" className="w-full bg-gray-500 px-4 py-2 rounded-sm">
-            <h3 className="text-white mb-2">
+            <h3 className="text-white mb-2 text-sm md:text-base font-medium">
               Lenguajes de programación...
             </h3>
-            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-50 overflow-auto bg-gray-200">
+            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-48 overflow-auto bg-gray-200">
               <ul className="flex flex-col gap-2">
                 <li>
                   <NombreIcono nombre="JavaScript" icono={javacriptIcon} />
@@ -99,11 +105,12 @@ const DatosPersonales = () => {
             </div>
           </div>
 
-          <div id="otros" className="w-full bg-gray-500 px-4 py-2 rounded-sm">
-            <h3 className="text-white mb-2">
-              Frameworks, IDEs y entornos de ejecución...
+          {/* FRAMEWORKS */}
+          <div id="frameworks" className="w-full bg-gray-500 px-4 py-2 rounded-sm">
+            <h3 className="text-white mb-2 text-sm md:text-base font-medium">
+              Frameworks, IDEs...
             </h3>
-            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-50 overflow-auto bg-gray-200">
+            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-48 overflow-auto bg-gray-200">
               <ul className="flex flex-col gap-2">
                 <li>
                   <NombreIcono nombre="React" icono={reactIcon} />
@@ -127,11 +134,12 @@ const DatosPersonales = () => {
             </div>
           </div>
 
-          <div id="otros" className="w-full bg-gray-500 px-4 py-2 rounded-sm">
-            <h3 className="text-white mb-2">
+          {/* BASES DE DATOS */}
+          <div id="bases-datos" className="w-full bg-gray-500 px-4 py-2 rounded-sm">
+            <h3 className="text-white mb-2 text-sm md:text-base font-medium">
               Bases de datos...
             </h3>
-            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-50 overflow-auto bg-gray-200">
+            <div className="border-2 rounded-sm border-gray-700 py-2 px-4 h-48 overflow-auto bg-gray-200">
               <ul className="flex flex-col gap-2">
                 <li>
                   <NombreIcono nombre="MySQL" icono={mysqlIcon} />
@@ -148,10 +156,11 @@ const DatosPersonales = () => {
               </ul>
             </div>
           </div>
+
         </div>
       </div>
 
-      <p>
+      <p className="text-center md:text-left">
         Además tengo experiencia usando lenguajes de marcas como{" "}
         <span className="font-semibold">HTML5</span> /{" "}
         <span className="font-semibold">XML</span> y manejando reglas de estilo
