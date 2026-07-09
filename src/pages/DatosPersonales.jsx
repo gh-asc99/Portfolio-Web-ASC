@@ -67,21 +67,21 @@ const DatosPersonales = () => {
               Siendo mi última formación el grado superior en DAW.
             </span>
           </p>
-          <p className="font-semibold text-sky-500">
+          <p className="font-semibold text-sky-700">
             Tengo disponibilidad de jornada completa y estoy abierto a
             desplazamiento e inserción inmediata.
           </p>
         </div>
       </div>
 
-      <div className="shadow-xl w-full border-2 border-solid border-gray-500 bg-gray-300 px-4 md:px-6 pt-4 pb-4 rounded-sm">
+      <div className="shadow-xl w-full border-2 border-solid border-sky-700/80 bg-gray-300 px-4 md:px-6 pt-4 pb-4 rounded-sm">
         <p className="pb-4 text-center md:text-left">
           Estas son las herramientas con las que tengo experiencia:
         </p>
         
         <div className="w-full flex flex-col md:flex-row gap-5">
           
-          <div id="lenguajes" className="w-full bg-gray-500 px-4 py-2 rounded-sm">
+          <div id="lenguajes" className="w-full bg-sky-700/50 px-4 py-2 rounded-sm">
             <h3 className="text-white mb-2 text-sm md:text-base font-medium">
               Lenguajes de programación...
             </h3>
@@ -106,7 +106,7 @@ const DatosPersonales = () => {
             </div>
           </div>
 
-          <div id="frameworks" className="w-full bg-gray-500 px-4 py-2 rounded-sm">
+          <div id="frameworks" className="w-full bg-sky-700/50 px-4 py-2 rounded-sm">
             <h3 className="text-white mb-2 text-sm md:text-base font-medium">
               Frameworks, IDEs y entornos de ejecución...
             </h3>
@@ -137,7 +137,7 @@ const DatosPersonales = () => {
             </div>
           </div>
 
-          <div id="bases-datos" className="w-full bg-gray-500 px-4 py-2 rounded-sm">
+          <div id="bases-datos" className="w-full bg-sky-700/50 px-4 py-2 rounded-sm">
             <h3 className="text-white mb-2 text-sm md:text-base font-medium">
               Bases de datos...
             </h3>

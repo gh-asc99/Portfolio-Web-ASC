@@ -9,7 +9,7 @@ const Experiencia = (props) => {
   return (
     <div className={`shadow-xl ${estiloComponente}`}>
       <div className="flex flex-col gap-3">
-        <p><span className="font-semibold">Puesto: </span> <span className={props.destacado === 'true' && ('font-bold text-blue-600')}>{props.puesto}</span></p>
+        <p><span className="font-semibold">Puesto: </span> <span className={props.destacado === 'true' && ('font-bold text-blue-700')}>{props.puesto}</span></p>
         <div id="funciones">
           <p className="font-semibold">Funciones del puesto:</p>
         <ul>

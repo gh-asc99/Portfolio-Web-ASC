@@ -1,0 +1,12 @@
+[
+    {
+        "id": "001",
+        "titulo": "Iniciación en Python",
+        "descripcion":"Actualmente estoy siguiendo un curso para aprender el lenguaje Python desde cero para principiantes del canal de MoureDev.",
+        "tipo": "Formación",
+        "portada":"/news/portadas/curso-python.jpg",
+        "icono":"/news/iconos/python-icon.png",
+        "progreso": 15,
+        "enlace":"https://www.youtube.com/watch?v=Kp4Mvapo5kc"
+    }
+]

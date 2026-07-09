@@ -23,6 +23,7 @@ const Menu = () => {
 
       {menuAbierto && (
         <nav className="flex flex-col gap-5 absolute top-15 border-2 border-black/80 right-0 z-50 rounded-sm bg-gray-300 px-4 py-4 text-center w-48 shadow-lg transition-all duration-300 ease-in-out md:hidden">
+          <Link to='/novedades' onClick={() => setMenuAbierto(false)} className='hover:bg-sky-500 bg-gray-500 px-5 py-1 rounded-sm text-white'>Novedades</Link>
           <Link to='/' onClick={() => setMenuAbierto(false)} className='hover:bg-sky-500 bg-gray-500 px-5 py-1 rounded-sm text-white'>Datos personales</Link>
           <Link to='/experiencia-laboral' onClick={() => setMenuAbierto(false)} className='hover:bg-sky-500 bg-gray-500 px-5 py-1 rounded-sm text-white'>Experiencia laboral</Link>
           <Link to='/formacion-academica' onClick={() => setMenuAbierto(false)} className='hover:bg-sky-500 bg-gray-500 px-5 py-1 rounded-sm text-white'>Formación académica</Link>
@@ -31,10 +32,11 @@ const Menu = () => {
       )}
 
       <nav className="hidden md:flex gap-4 mr-2">
-        <Link to='/' className='hover:bg-sky-500 bg-gray-500 px-4 py-1 rounded-sm text-white'>Datos personales</Link>
-        <Link to='/experiencia-laboral' className='hover:bg-sky-500 bg-gray-500 px-4 py-1 rounded-sm text-white'>Experiencia laboral</Link>
-        <Link to='/formacion-academica' className='hover:bg-sky-500 bg-gray-500 px-4 py-1 rounded-sm text-white'>Formación académica</Link>
-        <Link to='/proyectos-destacados' className='hover:bg-sky-500 bg-gray-500 px-4 py-1 rounded-sm text-white'>Proyectos destacados</Link>
+        <Link to='/novedades' className='w-47 text-center hover:bg-sky-700 bg-sky-500 px-4 py-1 rounded-sm text-white'>Novedades</Link>
+        <Link to='/' className='w-47 text-center hover:bg-sky-700 bg-gray-500 px-4 py-1 rounded-sm text-white'>Datos personales</Link>
+        <Link to='/experiencia-laboral' className='w-47 text-center hover:bg-sky-700 bg-gray-500 px-4 py-1 rounded-sm text-white'>Experiencia laboral</Link>
+        <Link to='/formacion-academica' className='w-47 text-center hover:bg-sky-700 bg-gray-500 px-4 py-1 rounded-sm text-white'>Formación académica</Link>
+        <Link to='/proyectos-destacados' className='w-47 text-center hover:bg-sky-700 bg-gray-500 px-4 py-1 rounded-sm text-white'>Proyectos destacados</Link>
       </nav>
     </div>
   )

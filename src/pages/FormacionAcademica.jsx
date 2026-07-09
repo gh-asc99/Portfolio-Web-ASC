@@ -9,7 +9,7 @@ const FormacionAcademica = () => {
       <h2 className="text-2xl font-semibold underline">Formación académica</h2>
       <div className="w-full">
         <p className="pb-2">Mis títulos académicos son los siguientes:</p>
-        <div className="shadow-xl px-4 py-2 bg-gray-500 rounded-sm">
+        <div className="shadow-xl px-4 py-2 bg-sky-700/50 rounded-sm">
           {titulosAcademicos.length > 0 ? (
             <ul className="grid md:grid-cols-3 gap-4 w-full">
               {titulosAcademicos.map((tit) => (
