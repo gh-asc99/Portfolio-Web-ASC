@@ -7,11 +7,11 @@ const PiePagina = () => {
 
       <div className="flex flex-col text-left md:text-center md:flex-row md:gap-6 text-gray-800 ">
         <small className="md:hidden ">
-          Portfolio web {" "}
+          Porfolio {" "}
           <span className="font-semibold text-black">Alejandro Soler Cruz</span>
         </small>
         <small className="hidden md:inline">
-          Portfolio web oficial de{" "}
+          Porfolio web oficial de{" "}
           <span className="font-semibold text-black">Alejandro Soler Cruz</span>
         </small>
         <small>
@@ -30,7 +30,8 @@ const PiePagina = () => {
           alt="Repositorio GitHub"
           className="h-6 w-6 object-contain"
         />
-        <span>Portfolio-Web-ASC</span>
+        <span className="hidden md:inline">Porfolio-Web-ASC</span>
+        <span className="md:hidden">Porfolio-ASC</span>
       </a>
     </footer>
   );
