@@ -78,7 +78,7 @@ const Proyecto = ({ proyecto }) => {
 
             <div className="flex gap-2 pb-2 text-sm items-center">
               <p className="hidden md:inline">Puedes consultar el repositorio github de la app pulsando en </p>
-              <p className="md:hidden">Consultar repositorio aquí </p>
+              <p className="md:hidden">Repositorio Github: </p>
               <a
                 href={proyecto.github}
                 target="_blank"
