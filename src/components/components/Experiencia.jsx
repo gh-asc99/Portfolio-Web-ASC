@@ -22,9 +22,9 @@ const Experiencia = (props) => {
         </div>
         
       </div>
-      <div className="flex flex-col gap-5 w-80">
+      <div className="flex flex-col gap-5 w-auto md:w-1/4">
         <NombreIcono nombre={props.empresa} icono={props.logo} />
-        <p>
+        <p className="text-xs md:text-base">
           Desde <span className="font-semibold">{props.fechaInicio}</span> hasta <span className="font-semibold">{props.fechaFinal}</span>.
         </p>
       </div>

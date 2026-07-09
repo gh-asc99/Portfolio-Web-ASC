@@ -14,7 +14,7 @@ const Titulo = (props) => {
             <NombreIcono nombre={props.lugar} icono={props.logo} />
         </div>
         
-        <p>
+        <p className='text-xs md:text-base'>
           Periodo: <span className="font-semibold">{props.periodo}</span>.
         </p>
       </div>
