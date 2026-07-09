@@ -4,7 +4,7 @@ import NombreIcono from "./NombreIcono.jsx";
 const Experiencia = (props) => {
   const funciones = props.funciones;
 
-  const estiloComponente = props.destacado === 'true' ? 'flex border-2 px-4 py-2 justify-between items-center rounded-sm bg-blue-200' : 'flex border-2 px-4 py-2 justify-between items-center rounded-sm bg-gray-300';
+  const estiloComponente = props.destacado === 'true' ? 'flex flex-col md:flex-row gap-5 border-2 px-4 py-2 justify-between md:items-center rounded-sm bg-blue-200' : 'flex flex-col md:flex-row gap-5 border-2 px-4 py-2 justify-between md:items-center rounded-sm bg-gray-300';
 
   return (
     <div className={`shadow-xl ${estiloComponente}`}>
@@ -14,7 +14,7 @@ const Experiencia = (props) => {
           <p className="font-semibold">Funciones del puesto:</p>
         <ul>
           {funciones.length > 0 ? (
-            funciones.map((funcion) => <li className="pl-6"><span className={props.destacado === 'true' ? ('text-blue-600 font-black') : ('font-black')}>·</span> {funcion}</li>)
+            funciones.map((funcion) => <li className="pl-6 flex gap-3"><span className={props.destacado === 'true' ? ('text-blue-600 font-black block') : ('font-black')}>·</span> {funcion}</li>)
           ) : (
             <p>No se han especificado las funciones.</p>
           )}
