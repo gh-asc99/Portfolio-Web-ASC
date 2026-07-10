@@ -6,7 +6,7 @@
         "tipo": "Formación",
         "portada":"/news/portadas/curso-python.jpg",
         "icono":"/news/iconos/python-icon.png",
-        "progreso": 15,
+        "progreso": 60,
         "enlace":"https://www.youtube.com/watch?v=Kp4Mvapo5kc"
     }
 ]
