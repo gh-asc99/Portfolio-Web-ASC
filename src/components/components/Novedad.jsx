@@ -6,11 +6,14 @@ const Novedad = ({ novedad }) => {
 
             <img src={novedad.icono} alt={`Icono de ${novedad.titulo}`} className='w-15 h-15 bg-white/80 rounded-full mb-2 md:mb-0' />
 
-            <img
+<div className='w-full md:w-100'>
+    <img
                 src={novedad.portada}
                 alt={`Portada de ${novedad.titulo}`}
-                className='rounded-sm w-full md:w-1/3 h-auto object-cover'
+                className='w-full h-full object-cover rounded-sm'
             />
+</div>
+            
 
             <div className='w-full flex flex-col justify-between gap-4'>
                 <div className='w-full flex flex-col'>

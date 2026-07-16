@@ -14,9 +14,9 @@
         "titulo": "Certificado AWS AI Practitioner",
         "descripcion":"Recientemente he comenzado un curso en Udemy para aprender sobre AWS AI Practitioner del formador Joan Amengual.",
         "tipo": "Formación",
-        "portada":"/news/portadas/cursoawsaipractitioner-python.jpg",
+        "portada":"/news/portadas/curso-awsaipractitioner.jpg",
         "icono":"/news/iconos/aws-icon.png",
         "progreso": 8,
-        "enlace":"https://www.youtube.com/watch?v=WwcYjjtBLDo"
+        "enlace":"https://www.udemy.com/course/certified-ai-practitioner-aws/?couponCode=MT260714G2"
     }
 ]

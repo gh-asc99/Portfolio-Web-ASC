@@ -12,7 +12,7 @@ const Novedades = () => {
         <div className='w-full'>
           {
             novedades.length > 0 ? (
-              <ul>
+              <ul className='flex flex-col gap-4'>
                 {
                   novedades.toReversed().map((nov) => (
                     <li key={nov.id}>
