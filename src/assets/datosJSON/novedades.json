@@ -2,11 +2,21 @@
     {
         "id": "001",
         "titulo": "Iniciación en Python",
-        "descripcion":"Actualmente estoy siguiendo un curso para aprender el lenguaje Python desde cero para principiantes del canal de MoureDev.",
+        "descripcion":"Finalmente he concluido el curso para aprender el lenguaje Python desde cero para principiantes del canal de MoureDev.",
         "tipo": "Formación",
         "portada":"/news/portadas/curso-python.jpg",
         "icono":"/news/iconos/python-icon.png",
         "progreso": 100,
         "enlace":"https://www.youtube.com/watch?v=Kp4Mvapo5kc"
+    },
+    {
+        "id": "002",
+        "titulo": "Certificado AWS AI Practitioner",
+        "descripcion":"Recientemente he comenzado un curso en Udemy para aprender sobre AWS AI Practitioner del formador Joan Amengual.",
+        "tipo": "Formación",
+        "portada":"/news/portadas/cursoawsaipractitioner-python.jpg",
+        "icono":"/news/iconos/aws-icon.png",
+        "progreso": 8,
+        "enlace":"https://www.youtube.com/watch?v=WwcYjjtBLDo"
     }
 ]

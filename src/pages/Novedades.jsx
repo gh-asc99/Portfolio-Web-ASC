@@ -14,7 +14,7 @@ const Novedades = () => {
             novedades.length > 0 ? (
               <ul>
                 {
-                  novedades.map((nov) => (
+                  novedades.toReversed().map((nov) => (
                     <li key={nov.id}>
                       <Novedad novedad={nov}/>
                     </li>
