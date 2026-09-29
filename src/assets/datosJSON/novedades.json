@@ -22,7 +22,7 @@
     {
         "id": "003",
         "titulo": "Curso de Docker desde cero",
-        "descripcion":"Vídeo curso de midudev desde cero para aprender a crear contenedores y gestionar aplicaciones en entornos aislados.",
+        "descripcion":"Vídeo de midudev para aprender a crear contenedores y gestionar aplicaciones en entornos aislados con Docker.",
         "tipo": "Formación",
         "portada":"/news/portadas/curso-docker.jpg",
         "icono":"/news/iconos/docker-icon.png",
