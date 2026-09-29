@@ -16,7 +16,17 @@
         "tipo": "Formación",
         "portada":"/news/portadas/curso-awsaipractitioner.jpg",
         "icono":"/news/iconos/aws-icon.png",
-        "progreso": 50,
+        "progreso": 80,
+        "enlace":"https://www.udemy.com/course/certified-ai-practitioner-aws/?couponCode=MT260714G2"
+    },
+    {
+        "id": "003",
+        "titulo": "Curso de Docker desde cero",
+        "descripcion":"Vídeo curso de midudev desde cero para aprender a crear contenedores y gestionar aplicaciones en entornos aislados.",
+        "tipo": "Formación",
+        "portada":"/news/portadas/curso-docker.jpg",
+        "icono":"/news/iconos/docker-icon.png",
+        "progreso": 20,
         "enlace":"https://www.udemy.com/course/certified-ai-practitioner-aws/?couponCode=MT260714G2"
     }
 ]
